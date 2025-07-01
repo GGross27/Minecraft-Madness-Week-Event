@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- head
+
+        Purpose:
+        - Title used here shows up in the browser tab
+        - Link to the favicon (small image that appears in the browser tab)
+        - Link to the CSS file (used to style the webpage)
+        -->
+        <title>Minecraft Madness Weekend Home</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+        <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
+    <body>
+    
+        
+<!-- navbar
+
+Purpose:
+- Navigation bar that allows users to jump to different sections of the webpage
+- Also holds buttons for user settings (dark mode, reduce motion)
+-->
+<div class="navbar">
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><button id="theme-button">Toggle Dark Mode</button></li>
+    </ul>
+</div>
+
+
+        <!-- headings
+
+        Purpose:
+        - Main header section of the webpage
+        - Contains the title, subtitle, image, and key buttons for the webpage
+        -->
+        <div class="header-container" id="home">
+            <div class="header-item">
+                <img id="header-img" src=".\img\logo with background.png">
+            </div>
+            <div class="header-item">
+                <h1>Minecraft Madness Weekend</h1>
+                <h6>Play, Explore, and Compete!</h6>
+                <h3> &lt;Tour-Guide&gt; Welcome! 
+                    <br> &lt;Tour-Guide&gt; 🛠️ Join us for an ultimate weekend of adventure, creativity, and friendly 
+                    competition — featuring exciting challenges for players of all skill levels! ⛏️✨
+                    <br> &lt;Player&gt; When and Where does this event take place?
+                    <br> &lt;Tour-Guide&gt;9AM April 19th to 9PM April 20th | Online Event Hosted On This Virtual Platform
+                </h3>
+                
+                <button class="header-button" type="button"><a href="#rsvp"></a>Register </button>
+                <button class="header-button" type="button"><a href="#about"></a>Learn More</button>
+            </div>
+            
+        </div>
+        
+        <!-- about
+
+        Purpose:
+        - Section for general info about the event
+        - Contains a video, description, and key points about the event
+        --> 
+        <div class="about-container" id="about">
+            <div id="about-text">
+                <h2>&lt;Tour-Guide&gt; About the Event</h2>
+                <p><strong>Minecraft Madness Weekend</strong> is an exciting, action-packed event designed 
+                    for gamers, streamers, and YouTubers to come together and play Minecraft 
+                    competitively over a weekend. Regardless of experience level, participants 
+                    will enjoy a series of challenges ranging from peaceful to hardcore 
+                    difficulty, with a focus on fun and friendly competition.</p>    
+                <p>The event is open to anyone aged 16+ and will be monitored to ensure a safe and respectful online 
+                    environment for all players. Users can access the event's challenges, download 
+                    mod packs, and track their progress on the live leaderboard via the website, making 
+                    it the perfect place for anyone looking to dive into a weekend of Minecraft madness.</p>
+            </div>
+
+            <div id="intro-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/xJzW9-j3BB0?si=46NEh75CGoFzsksN" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <h2>What to Expect</h2>
+        <h4>"Minecraft Madness Weekend: Play, Explore, and Compete!" 🌍🎮</h4>
+        <ul>
+            <li> <b><strong>🏆 Exciting Challenges:</strong></b> <i>Test your skills in parkour, PvP battles, treasure hunts, and more!</i></li>
+            <li> <b><strong>🎨 Creative Fun:</strong></b> <i>Build, farm, and solve puzzles in a world full of surprises.</i></li>
+            <li> <b><strong>🤝 Family-Friendly Competition:</strong></b> <i>Join solo or with friends for a weekend of teamwork and adventure!</i></li>
+        </ul>
+
+        <!-- schedule
+
+        Purpose:
+        - Section for specific info about the event's schedule
+        - Contains images and descriptions of each activity
+        --> 
+        <h2 id="schedule"><strong>🎮 Minecraft Madness Weekend Event Schedule</strong></h2>
+        <h3 class="info">📅 Saturday & Sunday | ⚔️ 3 Events Per Day | 🏆 3-4 Challenges Per Event</h3>
+        
+        <!-- 🌟 Saturday Section -->
+        <div class="eventblock-saturday-container">
+          <div class="background-img saturday-bg">
+            <img src="https://preview.redd.it/here-are-some-wallpapaer-i-made-fell-free-to-share-ideas-of-v0-7buzb5xztqhb1.png?width=640&crop=smart&auto=webp&s=58a2f1d72fb5cd016d68e74bcb6b2c35b95bb000" alt="Saturday background"/>
+          </div>
+          <div class="eventblock-overlay saturday-overlay">
+            <div class="day-label">
+              <h3>📅 Day 1: Saturday - Classic & Adventure Challenges</h3>
+            </div>
+            <div class="events">
+              <!-- Event 1 -->
+              <div class="event-container peaceful">
+                <div class="event-img">
+                  <img src="https://cdn-icons-png.flaticon.com/128/834/834232.png" alt="Peaceful icon"/>
+                </div>
+                <h4 class="info">🌿 Event 1: Peaceful – Parkour, Building & Puzzle Challenges</h4>
+                <p>
+                  1️⃣ 🏃 Parkour Race – Speedrun a complex parkour course.<br>
+                  2️⃣ 🛠 Build Battle – Players build structures based on a surprise theme.<br>
+                  3️⃣ 🧩 Puzzle Dungeon – Solve redstone and lever puzzles to escape.<br>
+                  4️⃣ 📦 Block Shuffle – Players must find and stand on a random block before time runs out.
+                </p>
+              </div>
+              <!-- Event 2 -->
+              <div class="event-container adventure">
+                <div class="event-img">
+                  <img src="https://cdn-icons-png.flaticon.com/128/1706/1706709.png" alt="Adventure icon"/>
+                </div>
+                <h4 class="info">⚔️ Event 2: Adventure – PvE & Exploration Challenges</h4>
+                <p>
+                  1️⃣ 🏝️ Treasure Hunt – Solve riddles to find hidden loot chests.<br>
+                  2️⃣ 🏹 Mob Arena – Survive increasingly difficult waves of mobs.<br>
+                  3️⃣ 🌊 Ocean Monument Raid – Defeat Guardians & Elder Guardians.<br>
+                  4️⃣ ⚔️ Raid Defense – Protect a village from an intense Pillager raid.
+                </p>
+              </div>
+              <!-- Event 3 -->
+              <div class="event-container hardcore">
+                <div class="event-img">
+                  <img src="https://cdn-icons-png.flaticon.com/128/2790/2790402.png" alt="Hardcore icon"/>
+                </div>
+                <h4 class="info">🔥 Event 3: Hard – PvP & Endgame Challenges</h4>
+                <p>
+                  1️⃣ 💣 TNT Run – Avoid falling into the void as the ground disappears.<br>
+                  2️⃣ 🐉 Ender Dragon Battle Royale – Fight teams while battling the Ender Dragon.<br>
+                  3️⃣ 🪓 Kit PvP Arena – PvP with customized gear kits.<br>
+                  4️⃣ 👻 Haunted Mansion Infiltration – Sneak into a mansion full of traps and enemies.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- 🌟 Sunday Section -->
+        <div class="eventblock-sunday-container">
+          <div class="background-img sunday-bg">
+            <img src="https://external-preview.redd.it/78RY0XJPZBdEIGhoEeNNt0wLdHJFP1MoYsUcpCBQlF0.jpg?width=640&crop=smart&auto=webp&s=acf7253d86daaa396d65fc20d2dabd90ee4d1658" alt="Sunday background"/>
+          </div>
+          <div class="eventblock-overlay sunday-overlay">
+            <div class="day-label">
+              <h3>📅 Day 2: Sunday - Chaos, Strategy & PvP Showdowns</h3>
+            </div>
+            <div class="events">
+              <!-- Event 1 -->
+              <div class="event-container peaceful">
+                <div class="event-img">
+                  <img src="https://cdn-icons-png.flaticon.com/128/834/834232.png" alt="Peaceful icon"/>
+                </div>
+                <h4 class="info">🌾 Event 1: Peaceful – Farming, Redstone & Collection Challenges</h4>
+                <p>
+                  1️⃣ 🐑 Farming Frenzy – Grow crops and breed animals the fastest.<br>
+                  2️⃣ 🔴 Redstone Puzzle Race – Complete a Redstone circuit fastest.<br>
+                  3️⃣ 🎣 Fishing Derby – Catch rare fish within a time limit.<br>
+                  4️⃣ 🚛 Item Hunt – Collect random items as fast as possible.
+                </p>
+              </div>
+              <!-- Event 2 -->
+              <div class="event-container adventure">
+                <div class="event-img">
+                  <img src="https://cdn-icons-png.flaticon.com/128/1706/1706709.png" alt="Adventure icon"/>
+                </div>
+                <h4 class="info">🏗️ Event 2: Adventure – Escape & Strategy Challenges</h4>
+                <p>
+                  1️⃣ 🔐 Minecraft Escape Room – Solve puzzles to escape a locked area.<br>
+                  2️⃣ 🧭 Maze Madness – Navigate a massive, changing labyrinth.<br>
+                  3️⃣ 🎯 Archery Duel – Hit moving targets with obstacles.<br>
+                  4️⃣ 🗺️ The Great Nether Race – Race in the Nether using limited resources.
+                </p>
+              </div>
+              <!-- Event 3 -->
+              <div class="event-container hardcore">
+                <div class="event-img">
+                  <img src="https://cdn-icons-png.flaticon.com/128/2790/2790402.png" alt="Hardcore icon"/>
+                </div>
+                <h4 class="info">⚡ Event 3: Hard – Ultimate Survival & Chaos Challenges</h4>
+                <p>
+                  1️⃣ ☁️ Skyblock Deathmatch – Battle on floating islands.<br>
+                  2️⃣ 🔥 Apocalypse Mode – Survive mobs, firestorms, and TNT.<br>
+                  3️⃣ 🏆 UHC Deathmatch – Hardcore PvP with no health regen.<br>
+                  4️⃣ ⚡ Lightning Round PvP – Fast-paced, high-speed PvP.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+            
+        <!-- rsvp
+        Purpose:
+        - Section for users to sign up for the event
+        - Contains a form for users to input their information, 
+        and a list of other users who have signed up
+        --> 
+        <div id="rsvp">
+          <h2>RSVP</h2>
+          <div class="rsvp-container">
+              <div class="rsvp-para">
+                  <p>
+                      Get ready for an unforgettable weekend of blocks, battles, and big-time fun! 
+                      🎮 Minecraft Madness Weekend is packed with exciting challenges, creative builds, 
+                      and family-friendly competitions for players of all skill levels. Whether you're 
+                      here to show off your skills or just have a blast with friends, this is the event 
+                      for you. Don't miss out—sign up below to secure your spot and join the adventure! ⛏️✨
+                  </p>
+              </div>
+              <div class="rsvp-participants">
+                  <p>🧱 Jordan M. (PixelKnight42) placed their RSVP block!</p>
+                  <p>🧱 Sierra L. (BlazeHunterX) placed their RSVP block!</p>
+                  <p>🧱 Leo R. (ShulkerSneak) placed their RSVP block!</p>
+                  <p>🧱 Maya T. (DiamondDiva77) placed their RSVP block!</p>
+              </div>
+          </div>
+
+          <!--- Sign RSVP Form --->
+          <div class="form-container">
+              <form id="rsvp-form" title="rsvp-form">
+                  <label for="name">Name:</label>
+                  <input id="name" name="name">
+                  <label for="email">Email:</label>
+                  <input id="email" name="email">
+                  <label for="gamertag">Gamertag:</label>
+                  <input id="gamertag" name="gamertag">
+              </form>
+              <!-- Submit button -->
+              <button id="rsvp-button">Submit RSVP</button>
+          </div>      
+      </div>
+        <!-- success modal
+
+        Purpose:
+        - Modal that appears when a user successfully signs up for the event
+        - Contains a personalized message and image
+        --> 
+
+        <div id="success-modal" class="modal">
+          <div class="modal-container">
+            <div id="modal-item">
+              <p id="modal-text">Placeholder text</p>
+            </div>
+              <div id="modal-item">
+                <img 
+                src="/img/creeper.png" 
+                alt="creeper in cracked" 
+                />
+              </div>
+          </div>
+        </div>
+    </body>
+    <script src="index.js"></script>
+</html>
